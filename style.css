@@ -1,0 +1,116 @@
+/* Document background */
+body {
+  background-color: #FBFBFB;
+}
+
+/* Table of contents */
+#toc {
+  background-color: #eee;
+  padding: 20px;
+}
+
+#toc ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#toc li {
+  margin-bottom: 10px;  
+}
+
+/* Document font */  
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Document font size */
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;  
+}
+
+/*table*/
+table {
+  border-collapse: collapse;
+  border: 2px solid #ddd;
+  width: 80%;  
+  margin: 0 auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: lightblue;
+  color: white; 
+}
+
+table::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px; 
+  background-color: ghostwhite;
+  color: black;
+  font-weight: bold;
+}
+
+.fancy {
+  background-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(pattern.png); 
+}
+
+@media only screen and (max-width: 800px) {
+  table {
+    width: 100%;
+  }
+}
+
+/*biblio*/
+/* Bibliography Styles */
+
+#bibliography {
+  margin: 2em 0;
+}
+
+#bibliography h2 {
+  margin-bottom: 1em;
+}
+
+.reference {
+  margin: 1em 0;  
+}
+
+.reference-type {
+  font-style: italic;
+  font-weight: bold; 
+}
+
+.reference-details {
+  margin-left: 1em;
+}
+
+.reference-author {
+  font-weight: bold;
+}
+
+.reference-year {
+  margin-left: 1em;
+}

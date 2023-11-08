@@ -1,0 +1,184 @@
+<html>
+<body>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title> Spark suggestions</title>
+  </head>
+
+<h1>Table of Contents</h1>
+
+<ul>
+  <li><a href="#intro">Introduction</a></li>
+  <li><a href="#table1">Table 1</a></li>
+  <li><a href="#table2">Table 2</a></li>
+  <li><a href="#table3">Table 3</a></li>
+  <li><a href="#biblio">Bibliography</a></li>
+</ul>
+
+<h2 id="intro">Introduction</h2>
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?" id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+<br><br>
+<h2 id="table1">Applications properties</h2>
+<br><br>
+<table>
+  <tr>
+    <th>Property Name</th>
+    <th>Meaning</th>
+    <th>Default</th>
+    <th>Suggested</th>
+  </tr>
+
+  <! app name>
+  <tr >
+    <td>spark.app.name</td>  
+    <td>name da dare all'applicazione/sessione spark</td>
+    <td>(none)</td>
+    <td>nome parlante utile per consultare la UI</td>
+  </tr>
+
+  <tr>
+    <td>spark.driver.cores</td>
+    <td>Number of cores to use for the driver process, only in cluster mode.</td> 
+    <td>1</td> 
+    <td>Inserire valore e inserire spiegazione<cite><a href="#dodici">[12]</a></cite></td>
+  </tr>
+
+  <tr>
+    <td>spark.driver.maxResultSize</td>
+    <td>  Limit of total size of serialized results of all partitions for each Spark action (e.g. collect) in bytes. Should be at least 1M, or 0 for unlimited. Jobs will be aborted if the total size is above this limit. Having a high limit may cause out-of-memory errors in driver (depends on spark.driver.memory and memory overhead of objects in JVM). Setting a proper limit can protect 
+    the driver from out-of-memory errors.</td> 
+    <td>1g</td> 
+    <td>Inserire valore e inserire spiegazione: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<cite><a href="#uno">[1]</a></cite></td>
+  </tr>
+
+</table>
+<br><br>
+  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+<h2 id="table2">Table 2</h2> 
+
+<!-- Table 2 content -->
+
+<h2 id="table3">Table 3</h2>
+
+<!-- Table 3 content -->
+
+
+<section id="bibliogr">
+  <h2 id="biblio">Bibliography</h2>
+  
+
+  <div class="reference">
+    <span class="reference-type"><a id="uno">[1]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="due">[2]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="tre">[3]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="quattro">[4]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="cinque">[5]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="sei">[6]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="sette">[7]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="otto">[8]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="nove">[9]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="dieci">[10]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="undici">[11]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <div class="reference">
+    <span class="reference-type"><a id="dodici">[12]</a></span>
+    <span class="reference-type">Book</span>
+    <span class="reference-details">
+      <span class="reference-author">Author Lastname, Firstname</span>,  
+      <span class="reference-year">(2019)</span>. Book Title. Publisher.
+    </span>
+  </div>
+
+  <!-- other references -->
+
+</section>
+</section> 
+</body>
+</html>
